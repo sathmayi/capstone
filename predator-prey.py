@@ -4,6 +4,7 @@ from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 
 y0 = [10, 1] #cannot be 0 as populations have to grow
+#y0 = [gamma/delta, alpha/beta] to check steady state values 
 
 #prey and predator in hundreds of units
 
